@@ -10,7 +10,7 @@ body {
   
 }
 /* premiere barre de navigation
- avec logo et les texte hypertext */
+ avec logo */
 .barrehaut {
   display: flex;
   flex-direction: row;
@@ -22,15 +22,6 @@ body {
   padding-left: 75%;
   align-self: center;
 }
-.barrebas__link {
-  font-size: 1.3rem;
-  padding-left: 1.5rem;
-  border-bottom: solid black;
-}
-.barrebas__link:hover {
-  border-bottom: solid;
-}
-
 .barrehaut__logo {
   width: 4%;
 }
@@ -44,7 +35,23 @@ body {
   width: 3%;
 }
 
+/* la barre en dessous ou il y'a uniquement les 
+textes en lien hypertextes */
+.barrebas {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.barrebas__link {
+  font-size: 1.3rem;
+  padding-left: 1.5rem;
+  border-bottom: solid black;
+}
+.barrebas__link:hover {
+  border-bottom: solid;
+}
 
+/* barre de recherche */
 .searchbar {
   border-radius: 20px;
   background-color: blanchedalmond;
@@ -52,9 +59,10 @@ body {
   height: 50px;
   margin: 0 auto;
   margin-top: 1%;
+  display: flex;
+  flex-direction: row;
 }
 .searchbar__case {
-  display: inline-block;
   border-right: 2px solid black;
   min-height: 100%;
   height: 100%;
@@ -75,7 +83,7 @@ body {
   border-right: 2px solid black;
   width: 23%;
 }
-
+/* les deux premieres images avec des arrondi */
 .main__image1 {
   background-image: url("./image/image_1.jpg");
   background-size: cover;
@@ -100,18 +108,22 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
+.main1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2%;
+}
 .main__block {
   border-radius: 20px;
   background-color: blanchedalmond;
-  width: 20%;
-  height: 50%;
-  margin: 0 auto;
+  width: 18.5%;
+  height: 30%;
+  min-height: 300px;
   margin-top: 3%;
-  display: inline-block;
+ 
 }
-.main__block:first-child {
-  margin-left: 10%;
-}
+
 .main__block--img {
   border-radius: 20px 20px 0px 0px;
   width: 100%;
