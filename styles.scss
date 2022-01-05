@@ -67,7 +67,7 @@ body {
  .searchbar {
     border-radius: 20px;
     background-color: blanchedalmond;
-    
+        
     width: 50%;
     height: 50px;
     margin: 0 auto;
@@ -126,9 +126,11 @@ body {
 
     }
  }
+//  donne la couleur rouge au classe qui l'appelle
  .rouge{
      background-color: red;
  }
+//  donne la couleur violet au classe qui l'appelle
  .violet{
      background-color: rgba(255, 0, 106, 0.733);
  }
