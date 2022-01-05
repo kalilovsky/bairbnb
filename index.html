@@ -24,36 +24,61 @@
         </nav>
         <!-- Barre de recherche -->
         <div class="searchbar">
-            <span class="searchbar__case"><strong>Adresse</strong> <br> Ou aller ?<br> </span>
-            <span class="searchbar__case"><strong>Arrivé</strong> <br> Quand ? <br> </span>
-            <span class="searchbar__case"><strong> Départ</strong> <br> Quand ? <br> </span>
-            <span class="searchbar__case"><strong> Voyageurs</strong> <br> Qui ? <br></span>         
+            <form class="searchbar__case">
+                <label for="">Adresse</label>
+                <input type="text" name="Où allez vous " id="name" placeholder="Où allez vous..." required>
+            </form>
+            <form class="searchbar__case">
+                <label for="">Arrivée</label>
+                <input type="date" name="Quand" id="name" placeholder="Quand ?" required>
+            </form>
+            <form class="searchbar__case">
+                <label for="">Départ</label>
+                <input type="date" name="Quand2" id="name" placeholder="Quand ?" required>
+            </form>
+            <form class="searchbar__case">
+                <label for="">Voyageurs</label>
+                <input type="text" name="Qui" id="name" placeholder="Qui ?" required>
+            </form>     
+            <button class="searchbar__case">
+                <img src="./image/search_icon.png" alt="" class="searchbar__case--img">
+                
+            </button>    
         </div> 
 
     </header>
     <main>
        <!-- premieres images -->
-        <div class="main__image1"></div>
-        <div class="main__image2"></div>
+        <div class="main__image1">
+            <H1>Vous ne savez pas où partir ?
+                <br> Parfait.</H1>
+            <button class="main__image1--btn"> <h3>Je suis flexible</h3> </button>
+        </div>
+        <div class="main__image2">
+            <H1>Cartes cadeaux Bairbnb</H1>
+            <button class="main__image1--btn"> <h3>Achetez Maintenant</h3> </button>
+        </div>
         <!-- images cartes -->
         <div class="main1">
             <div class="main__block  rouge">
                 <img src="./image/image_block1_HD.jpg" class="main__block--img" alt="">
-                <div class=""></div>
+                <div class="">TEST 0</div>
             </div>
             <div class="main__block violet">
                 <img src="./image/image_block2_HD.jpg" class="main__block--img" alt="">
-                <div class=""></div>
+                <div class="">TEST 1</div>
             </div>
             <div class="main__block rouge">
                 <img src="./image/image_block3_HD.jpg" class="main__block--img" alt="">
-                <div class=""></div>
+                <div class="">TEST 2</div>
             </div>
             <div class="main__block violet">
                 <img src="./image/image_block4_HD.jpg" class="main__block--img" alt="">
-                <div class=""></div>
+                <div class="">TEST 3</div>
             </div>
         </div>
+        <h3>Découvrez les expériences Bairbnb</h3>
+
     </main>
     <footer>
         
