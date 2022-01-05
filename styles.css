@@ -7,18 +7,27 @@ body {
   padding-right: 6rem;
   padding-top: 0.5rem;
   color: blanchedalmond;
+  
 }
-
-.barrebas {
-  text-align: center;
+/* premiere barre de navigation
+ avec logo et les texte hypertext */
+.barrehaut {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
-.barrebas .barrebas__link {
-  display: inline-block;
+.barrehaut__hotes {
+  padding-left: 75%;
+  align-self: center;
+}
+.barrebas__link {
   font-size: 1.3rem;
   padding-left: 1.5rem;
   border-bottom: solid black;
 }
-.barrebas .barrebas__link:hover {
+.barrebas__link:hover {
   border-bottom: solid;
 }
 
@@ -34,9 +43,7 @@ body {
 .barrehaut__compte {
   width: 3%;
 }
-.barrehaut__hotes {
-  margin-left: 70%;
-}
+
 
 .searchbar {
   border-radius: 20px;
