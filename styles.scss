@@ -66,7 +66,7 @@ body {
 //  barre de recherche
  .searchbar {
     border-radius: 20px;
-    background-color: blanchedalmond;
+    background-color: red;
         
     width: 50%;
     height: 50px;
@@ -74,7 +74,9 @@ body {
     margin-top: 1%;
    
     &__case{
+        background-color: blanchedalmond;
         display: inline-block;
+        
         border-right: 2px solid black;
         min-height: 100%;
         height: 100%;
@@ -82,6 +84,7 @@ body {
         color: gray;
         text-align: center;
         vertical-align: middle;
+        margin-right: 0px;
         &:last-child{
             border-radius: 0px 20px 20px 0px;
             border-right: none !important;
@@ -97,7 +100,11 @@ body {
             width: 23%;
         }
     }
-
+    &__icon{
+        background-color: red;
+        height: 50%;
+        border-radius: 10px;
+    }
  }
  .main{
     //  Les deux premieres images
