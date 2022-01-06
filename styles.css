@@ -1,51 +1,13 @@
 body {
   background: linear-gradient(black 0 65%, rgb(0, 0, 0) 65% 66%,white 66% 67% );
-  color: blanchedalmond;
 }
-
-.nav {
-  padding-right: 6rem;
-  padding-top: 0.5rem;
-  color: blanchedalmond;
-  
-}
-/* premiere barre de navigation
- avec logo */
-/* .barrehaut {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  
-}
-.barrehaut__hotes {
-  padding-left: 75%;
-  align-self: center;
-}
-.barrehaut__logo {
-  width: 4%;
- }
-.barrehaut__logoecrit {
-  width: 10%;
-}
-.barrehaut__langue {
-  width: 3%;
-}
-.barrehaut__compte {
-  width: 3%;
-} */
-
 /* la barre en dessous ou il y'a uniquement les 
 textes en lien hypertextes */
 .barrebas {
-  /* display: flex;
-  flex-direction: row;
-  justify-content: center; */
-  color: blanchedalmond;
+   color: blanchedalmond;
 }
 .barrebas__link {
-  font-size: 1.3rem;
-  padding-left: 1.5rem;
+  font-size: 1rem;
   border-bottom: solid black;
 }
 .barrebas__link:hover {
@@ -56,48 +18,23 @@ textes en lien hypertextes */
 .searchbar {
   border-radius: 20px;
   background-color: blanchedalmond;
-  width: 75%;
-  height: 50px;
-  margin: 0 auto;
-  margin-top: 1%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
 }
-.searchbar__case {
-  
-  min-height: 100%;
-  height: 100%;
-  width: 23%;
-  color: gray;
-  text-align: center;
-  vertical-align: middle;
-  display: flex;
-  flex-direction: column;
-}
+/* bouton recherche avec icon de loupe*/
 .searchbar__case:last-child {
   border-radius: 0px 20px 20px 0px;
   border: none;
   background: none;
   width: 5%;
-  justify-content: center;
+ 
   
-}
-.searchbar__case:last-child:hover {
-  /* width: 5%; */
-}
-.searchbar__case:first-child {
-  border-radius: 20px 0px 0px 20px;
 }
 .searchbar__case:hover {
   background-color: rgba(231, 231, 231, 0.733);
-  
-  /* width: 23%; */
 }
 .searchbar__case--img {
-  width: 40px;
+  width: 60px;
   background-color: red;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 /* les deux premieres images avec des arrondi */
 .main__image1 {
@@ -106,18 +43,7 @@ textes en lien hypertextes */
   max-height: 800px;
   height: 700px;
   width: 80%;
-  margin: 0 auto;
-  margin-top: 5%;
   border-radius: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: black;
-  text-shadow: blanchedalmond;
 }
 .main__image2 {
   background-image: url("./image/image_2.jpg");
@@ -125,18 +51,7 @@ textes en lien hypertextes */
   max-height: 800px;
   height: 700px;
   width: 80%;
-  margin: 0 auto;
-  margin-top: 5%;
   border-radius: 20px;
-  background-repeat: no-repeat;
-  background-position: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  color: black;
-  text-shadow: rgb(90, 89, 88);
 }
 
 /*# sourceMappingURL=styles.css.map */

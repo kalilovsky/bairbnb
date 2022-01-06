@@ -3,42 +3,48 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
 </head>
-<body class="container">
-    <header class="row justify-content-center align-items-center">
+<body class="container text-white">
+    <header class="row justify-content-center align-items-center pt-5">
         <!-- barre de haut avec logo et les autres -->
-        <img src="image/logo_vecteur.png" alt="" class="barrehaut__logo col-1 float-start" style="width: 5%;">
-        <img src="image/logo_ecrit.png" alt="" class="barrehaut__logoecrit col-2" style="width: 10%;">
+        <img src="image/logo_vecteur.png" alt="" class="barrehaut__logo col-1" style="width: 70px;">
+        <img src="image/logo_ecrit.png" alt="" class="barrehaut__logoecrit col-2 ps-0" style="width: 100px;">
         <div class="barrebas col-6 row">
             <div class="barrebas__link col">Hébérgements</div>
             <div class="barrebas__link col">Expériences</div>
             <div class="barrebas__link col">Expériences en ligne</div>         
          </div>  
-        <span class="barrehaut__hotes col-1 float-end">Devenez</span>  
-        <img src="image/langage_icon.png" alt="" class="barrehaut__langue col-1"> 
-        <img src="image/account_icon.png" alt="" class="barrehaut__compte col-1"> 
+        <span class="barrehaut__hotes col-1 align-self-end">Devenez</span>  
+        <img src="image/langage_icon.png" alt="" class="barrehaut__langue col-1" style="width: 50px;"> 
+        <img src="image/account_icon.png" alt="" class="barrehaut__compte col-1" style="width: 50px;"> 
                 
 
          <!-- barre de bas ou il y'a uniquement les textes en liens hypertextes -->
           
         <!-- Barre de recherche -->
-        <div class="searchbar row">
-            <form class="searchbar__case col-2">
-                <label for="">Adresse</label>
-                <input type="text" name="Où allez vous " id="name" placeholder="Où allez vous..." required>
+        <div class="searchbar row justify-content-around text-center align-items-center mt-5 text-dark">
+            <form class="searchbar__case col-2  d-flex flex-column">
+              <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Adresse</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ou allez vous....">
+              </div>
             </form>
-            <form class="searchbar__case col-2">
-                <label for="">Arrivée</label>
-                <input type="date" name="Quand" id="name" placeholder="Quand ?" required>
+            <form class="searchbar__case col-2 d-flex flex-column">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Arrivé</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Quand ?">
+                </div>
             </form>
-            <form class="searchbar__case col-2">
-                <label for="">Départ</label>
-                <input type="date" name="Quand2" id="name" placeholder="Quand ?" required>
+            <form class="searchbar__case col-2 d-flex flex-column">
+              <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Départ</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Quand ?">
+                </div>
             </form>
-            <form class="searchbar__case col-2">
-                <label for="">Voyageurs</label>
-                <input type="text" name="Qui" id="name" placeholder="Qui ?" required>
+            <form class="searchbar__case col-2 d-flex flex-column">
+              <label for="customRange2" class="form-label">Voyageurs</label>
+              <input type="range" class="form-range" min="1" max="6" id="customRange2">
             </form>     
-            <button class="searchbar__case col-1">
+            <button class="searchbar__case col-1 d-flex flex-column">
                 <img src="./image/search_icon.png" alt="" class="searchbar__case--img">
                 
             </button>    
@@ -47,18 +53,18 @@
     </header>
     <main class="row">
        <!-- premieres images -->
-        <div class="main__image1 col-12">
+        <div class="main__image1 col-12 mt-5 d-flex flex-column justify-content-center align-items-center text-center text-dark">
            
             <H1>Vous ne savez pas où partir ?
                 <br> Parfait.</H1>
             <button class="btn btn-secondary"> <h3>Je suis flexible</h3> </button>
         </div>
-        <div class="main__image2 col-12">
+        <div class="main__image2 col-12 mt-5 d-flex flex-column justify-content-center align-items-center text-center text-dark">
             <H1>Cartes cadeaux Bairbnb</H1>
             <button class="btn btn-secondary"> <h3>Achetez Maintenant</h3> </button>
         </div>
         <!-- images cartes -->
-        <div class="main1 row justify-content-around">
+        <div class="main1 row justify-content-around text-dark mt-5">
             <div class="card col-2"  style="width: 15rem;">
                 <img src="./image/image_block1_HD.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
