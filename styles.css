@@ -100,8 +100,9 @@ textes en lien hypertextes */
 }
 /* icone de la deuxieme barre de recherche pour mobile */
 .searchbar__case--img2 {
-  max-width: 69%;
+  width: 30px;
   background-color: none;
+  margin-left: -10px;
   
 }
 .searchbar__responsive
@@ -156,16 +157,15 @@ textes en lien hypertextes */
 .main__block {
   border-radius: 20px;
   background-color: blanchedalmond;
-  width: 18.5%;
-  height: 30%;
-  min-height: 300px;
+  width: 240px;
+  height: 320px;
   margin-top: 3%;
  
 }
 
 .main__block--img {
   border-radius: 20px 20px 0px 0px;
-  width: 100%;
+  width: 240px;
 }
 
 .rouge {
@@ -186,14 +186,12 @@ textes en lien hypertextes */
 }
 /* Pour les écran et les viewport de moins de 780px */
 @media screen and (max-width: 780px){
-  header {
-    background-color: black;
-    height: 60px;
-  }
+  
   .barrehaut{
     position: fixed;
     top: 0px;
     background-color: black;
+    
   }
   .barrebas{
     display: none;
@@ -206,8 +204,23 @@ textes en lien hypertextes */
   }
   .searchbar__responsive 
   {
-  display: block !important;
+  display: flex !important;
+  position: fixed !important;
+  top : 20px;
+  background-color: black;
   } 
-   
+  .barrehaut__logo {
+    display: flex;
+    justify-content: center;
+    min-width: 20px;
+    width: 4%;
+  }
+  .barrehaut__logoecrit {
+    min-width: 40px;
+    
+  }
+  .main1{
+    flex-wrap: wrap;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
