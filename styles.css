@@ -19,7 +19,7 @@ body {
   
 }
 .barrehaut__hotes {
-  padding-left: 75%;
+  padding-left: 72%;
   align-self: center;
 }
 .barrehaut__logo {
@@ -98,6 +98,16 @@ textes en lien hypertextes */
   background-color: red;
   border-radius: 20px;
 }
+/* icone de la deuxieme barre de recherche pour mobile */
+.searchbar__case--img2 {
+  max-width: 69%;
+  background-color: none;
+  
+}
+.searchbar__responsive
+{
+  display: none !important;
+}
 /* les deux premieres images avec des arrondi */
 .main__image1 {
   background-image: url("./image/image_1.jpg");
@@ -174,11 +184,30 @@ textes en lien hypertextes */
 .main__image1--btn:hover {
   background-color:lightsteelblue;
 }
-
+/* Pour les écran et les viewport de moins de 780px */
 @media screen and (max-width: 780px){
-  .barrehaut__logoecrit{
+  header {
+    background-color: black;
+    height: 60px;
+  }
+  .barrehaut{
+    position: fixed;
+    top: 0px;
+    background-color: black;
+  }
+  .barrebas{
     display: none;
   }
- 
+  .barrehaut__compte, .barrehaut__langue, .barrehaut__compte, .barrehaut__hotes {
+    display: none;
+  }
+  .searchbar{
+   display: none;
+  }
+  .searchbar__responsive 
+  {
+  display: block !important;
+  } 
+   
 }
 /*# sourceMappingURL=styles.css.map */
